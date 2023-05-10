@@ -33,7 +33,7 @@ class AllMoviesViewController: UIViewController,UITableViewDelegate,UITableViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        allMovies  =  loadJson("MovieSources.json")
+        allMovies  =  loadJson("MoviesSource.json")
         classificationButtonArray = [nowMoviesButton,upcomingMoviesButton]
         correctMovieSources = allMovies.filter{$0.movieClassification == "0"}
     }
@@ -80,7 +80,7 @@ class AllMoviesViewController: UIViewController,UITableViewDelegate,UITableViewD
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let detailViewController = UIStoryboard(name: "allMovies", bundle: nil).instantiateViewController(withIdentifier: "MovieDetailsViewController") as! MovieDetailsViewController
+        let detailViewController = UIStoryboard(name: "Cinema", bundle: nil).instantiateViewController(withIdentifier: "MovieDetailsViewController") as! MovieDetailsViewController
         
         detailViewController.movieDetail = self.correctMovieSources[indexPath.row]
         detailViewController.hidesBottomBarWhenPushed = true

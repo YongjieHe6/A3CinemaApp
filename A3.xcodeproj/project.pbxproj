@@ -23,6 +23,8 @@
 		53ADE37E2A07BD810024ACC4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE37D2A07BD810024ACC4 /* Movie.swift */; };
 		53ADE3802A07D9070024ACC4 /* UsefulMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE37F2A07D9070024ACC4 /* UsefulMethods.swift */; };
 		53ADE3822A0A850C0024ACC4 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3812A0A850C0024ACC4 /* MovieDetailsViewController.swift */; };
+		53ADE3862A0B65390024ACC4 /* MovieDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3852A0B65390024ACC4 /* MovieDetailsCell.swift */; };
+		53ADE38A2A0B665C0024ACC4 /* SaleTimeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3892A0B665C0024ACC4 /* SaleTimeListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		53ADE37D2A07BD810024ACC4 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		53ADE37F2A07D9070024ACC4 /* UsefulMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulMethods.swift; sourceTree = "<group>"; };
 		53ADE3812A0A850C0024ACC4 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		53ADE3852A0B65390024ACC4 /* MovieDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsCell.swift; sourceTree = "<group>"; };
+		53ADE3892A0B665C0024ACC4 /* SaleTimeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleTimeListCell.swift; sourceTree = "<group>"; };
+		53ADE38B2A0BBF750024ACC4 /* MoviesSource.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = MoviesSource.geojson; sourceTree = "<group>"; };
+		53ADE38E2A0BBFAB0024ACC4 /* TicketsSource.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = TicketsSource.geojson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				53ADE37F2A07D9070024ACC4 /* UsefulMethods.swift */,
+				53ADE38B2A0BBF750024ACC4 /* MoviesSource.geojson */,
+				53ADE38E2A0BBFAB0024ACC4 /* TicketsSource.geojson */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -160,6 +168,8 @@
 				53ADE3792A07B5BC0024ACC4 /* MovieLaterCell.swift */,
 				53ADE37B2A07BD650024ACC4 /* Ticket.swift */,
 				53ADE37D2A07BD810024ACC4 /* Movie.swift */,
+				53ADE3852A0B65390024ACC4 /* MovieDetailsCell.swift */,
+				53ADE3892A0B665C0024ACC4 /* SaleTimeListCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -316,9 +326,11 @@
 				53ADE3782A07B5AD0024ACC4 /* MovieNowCell.swift in Sources */,
 				53ADE33B2A0672240024ACC4 /* AppDelegate.swift in Sources */,
 				53ADE37C2A07BD650024ACC4 /* Ticket.swift in Sources */,
+				53ADE3862A0B65390024ACC4 /* MovieDetailsCell.swift in Sources */,
 				53ADE33D2A0672240024ACC4 /* SceneDelegate.swift in Sources */,
 				53ADE37A2A07B5BC0024ACC4 /* MovieLaterCell.swift in Sources */,
 				53ADE37E2A07BD810024ACC4 /* Movie.swift in Sources */,
+				53ADE38A2A0B665C0024ACC4 /* SaleTimeListCell.swift in Sources */,
 				53ADE3722A077E730024ACC4 /* AllMoviesViewController.swift in Sources */,
 				53ADE3802A07D9070024ACC4 /* UsefulMethods.swift in Sources */,
 			);

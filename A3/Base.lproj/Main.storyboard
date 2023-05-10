@@ -448,7 +448,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MovieHeaderTableViewCell" rowHeight="183" id="LzJ-N9-5Zl" customClass="MovieHeaderTableViewCell" customModule="A3" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MovieDetailsCell" rowHeight="183" id="LzJ-N9-5Zl" customClass="MovieDetailsCell" customModule="A3" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="183"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LzJ-N9-5Zl" id="ieb-LP-9dB">
@@ -506,9 +506,6 @@
                                                                             <state key="normal" title="Today">
                                                                                 <color key="titleColor" systemColor="labelColor"/>
                                                                             </state>
-                                                                            <connections>
-                                                                                <action selector="segementButtonClick:" destination="LzJ-N9-5Zl" eventType="touchUpInside" id="xq8-PV-xzn"/>
-                                                                            </connections>
                                                                         </button>
                                                                         <view tag="20" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nFP-U1-wbl">
                                                                             <rect key="frame" x="0.0" y="31" width="80.666666666666671" height="4"/>
@@ -528,9 +525,6 @@
                                                                             <state key="normal" title="Tomorrow">
                                                                                 <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             </state>
-                                                                            <connections>
-                                                                                <action selector="segementButtonClick:" destination="LzJ-N9-5Zl" eventType="touchUpInside" id="0WA-O8-cmy"/>
-                                                                            </connections>
                                                                         </button>
                                                                         <view hidden="YES" tag="21" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VQ1-7l-Y0Z">
                                                                             <rect key="frame" x="0.0" y="0.0" width="81" height="4"/>
@@ -550,12 +544,9 @@
                                                                         <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xd1-rb-x1T">
                                                                             <rect key="frame" x="0.0" y="0.0" width="80.666666666666671" height="35"/>
                                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                            <state key="normal" title="5-19">
+                                                                            <state key="normal" title="27/05">
                                                                                 <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             </state>
-                                                                            <connections>
-                                                                                <action selector="segementButtonClick:" destination="LzJ-N9-5Zl" eventType="touchUpInside" id="k12-bZ-Fk9"/>
-                                                                            </connections>
                                                                         </button>
                                                                         <view hidden="YES" tag="22" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WJW-fE-HDw">
                                                                             <rect key="frame" x="0.0" y="0.0" width="80.666666666666671" height="4"/>
@@ -572,12 +563,9 @@
                                                                         <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBh-7Q-eWB">
                                                                             <rect key="frame" x="0.0" y="0.0" width="80.666666666666671" height="35"/>
                                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                            <state key="normal" title="5-29">
+                                                                            <state key="normal" title="28/05">
                                                                                 <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             </state>
-                                                                            <connections>
-                                                                                <action selector="segementButtonClick:" destination="LzJ-N9-5Zl" eventType="touchUpInside" id="MaH-1t-HlV"/>
-                                                                            </connections>
                                                                         </button>
                                                                         <view hidden="YES" tag="23" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yB7-eJ-TRF">
                                                                             <rect key="frame" x="0.0" y="0.0" width="80.666666666666671" height="4"/>
@@ -615,22 +603,8 @@
                                                 <constraint firstAttribute="bottom" secondItem="6cv-C8-QkL" secondAttribute="bottom" constant="8" id="nqj-zY-7wA"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="fourDayButton" destination="hBh-7Q-eWB" id="Xjb-eb-pS2"/>
-                                            <outlet property="fristDayButton" destination="ax2-mM-Sx9" id="8e0-iS-sXJ"/>
-                                            <outlet property="line1View" destination="nFP-U1-wbl" id="mlt-9K-c7O"/>
-                                            <outlet property="line2View" destination="VQ1-7l-Y0Z" id="vTG-8m-CCJ"/>
-                                            <outlet property="line3View" destination="WJW-fE-HDw" id="TYu-OX-MSl"/>
-                                            <outlet property="line4View" destination="yB7-eJ-TRF" id="m4m-od-BnO"/>
-                                            <outlet property="movieImageView" destination="UF6-Wp-fEs" id="FEf-Ns-dD8"/>
-                                            <outlet property="nameLabel" destination="ZFX-kW-dnT" id="Bgj-WA-YvR"/>
-                                            <outlet property="seconDayButton" destination="IwK-rd-sNz" id="SbX-rG-2ph"/>
-                                            <outlet property="startTimeLabel" destination="KM5-V2-003" id="o7Y-7K-AOQ"/>
-                                            <outlet property="thirdDayButton" destination="xd1-rb-x1T" id="hIB-NU-0Pg"/>
-                                            <outlet property="totalTimeLabel" destination="kyz-Y1-dTc" id="MBG-Yt-ft1"/>
-                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SaleMovieListCell" rowHeight="100" id="mDk-dt-B86" customClass="SaleMovieListCell" customModule="A3" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SaleTimeListCell" rowHeight="100" id="mDk-dt-B86" customClass="SaleTimeListCell" customModule="A3" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="233" width="393" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mDk-dt-B86" id="Too-vE-Zgg">
@@ -727,11 +701,6 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <connections>
-                                            <outlet property="buyButton" destination="jOE-ac-8Fk" id="m9G-5W-swQ"/>
-                                            <outlet property="priceLabel" destination="tYe-1B-LOg" id="Std-6B-RhU"/>
-                                            <outlet property="startTimeLabel" destination="294-fu-Orx" id="BFf-43-TqR"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -750,7 +719,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tableView" destination="esE-Pb-rZm" id="xdc-8h-4Ag"/>
+                        <outlet property="movieDetailsTableView" destination="esE-Pb-rZm" id="3AN-in-At1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hlz-EK-oHR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

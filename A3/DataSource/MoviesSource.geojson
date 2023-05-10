@@ -1,0 +1,63 @@
+
+[{
+ "movieName": "Fast X",
+ "movieImage": 1,
+ "movieShowTime": "2023-05-18",
+ "movieRunningTime": "110",
+ "movieClassification": "0",
+ "movieID": "001"
+ 
+ }, {
+     "movieName": "John Farnham",
+     "movieImage": 2,
+     "movieShowTime": "2023-05-18",
+     "movieRunningTime": "95",
+     "movieClassification": "0",
+     "movieID": "002"
+ }, {
+     "movieName": "Raghavendra Stores",
+     "movieImage": 3,
+     "movieShowTime": "2023-05-12",
+     "movieRunningTime": "104",
+     "movieClassification": "0",
+     "movieID": "003"
+ }, {
+     "movieName": "Prasad 2",
+     "movieImage": 4,
+     "movieShowTime": "2023-05-11",
+     "movieRunningTime": "134",
+     "movieClassification": "0",
+     "movieID": "004"
+ }, {
+     "movieName": "The Machine",
+     "movieImage": 5,
+     "movieShowTime": "2023-05-25",
+     "movieRunningTime": "112",
+     "movieClassification": "0",
+     "movieID": "005"
+ }, {
+     "movieName": "The Procurator",
+     "movieImage": 6,
+     "movieShowTime": "2023-05-25",
+     "movieRunningTime": "150",
+     "movieClassification": "1",
+     "movieID": "006"
+ }, {
+     "movieName": "Renfield",
+     "movieImage": 7,
+     "movieShowTime": "2023-05-25",
+     "movieRunningTime": "93",
+     "movieClassification": "1",
+     "movieID": "007"
+ }, {
+     "movieName": "Godday Godday Chaa",
+     "movieImage": 8,
+     "movieShowTime": "2023-05-26",
+     "movieRunningTime": "130",
+     "movieClassification": "1",
+     "movieID": "008"
+ }
+]
+
+    
+
