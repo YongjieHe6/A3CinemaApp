@@ -13,6 +13,10 @@ class MovieNowCell: UITableViewCell {
     
     @IBOutlet weak var movieNowNameLabel: UILabel!
     @IBOutlet weak var movieNowImage: UIImageView!
+    @IBOutlet weak var locationLabel: UILabel!
+    @IBOutlet weak var hotSign: UILabel!
+    @IBOutlet weak var locationSign: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }

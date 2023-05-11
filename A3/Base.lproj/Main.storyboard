@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S9u-pb-xps">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4xs-OB-H2V">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="qv3-GZ-thK" customClass="PersonalViewController" customModule="A3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="161-7U-UMx">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="vki-PT-Yks">
-                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="734"/>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PersonalHeaderTableViewCell" rowHeight="146" id="ih4-uX-hhS" customClass="PersonalHeaderTableViewCell" customModule="A3" customModuleProvider="target">
@@ -207,13 +207,13 @@
         <!--All Movies View Controller-->
         <scene sceneID="RYb-8R-spn">
             <objects>
-                <viewController id="z2R-TH-ZqP" customClass="AllMoviesViewController" customModule="A3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="z2R-TH-ZqP" customClass="AllMoviesViewController" customModule="A3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a9r-ib-XH9">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WUi-DF-7NB">
-                                <rect key="frame" x="20" y="103" width="353" height="60"/>
+                                <rect key="frame" x="20" y="56" width="353" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zn-fF-5TT">
                                         <rect key="frame" x="0.0" y="0.0" width="176.66666666666666" height="60"/>
@@ -243,7 +243,7 @@
                                 </constraints>
                             </stackView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="4W0-PS-uyc">
-                                <rect key="frame" x="0.0" y="163" width="393" height="606"/>
+                                <rect key="frame" x="0.0" y="116" width="393" height="653"/>
                                 <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MovieLaterCell" rowHeight="140" id="Gbr-PW-xXW" customClass="MovieLaterCell" customModule="A3" customModuleProvider="target">
@@ -269,8 +269,8 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18 May 2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKl-Ic-HyE">
-                                                            <rect key="frame" x="95" y="36.333333333333336" width="83.666666666666686" height="17"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25 May 2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKl-Ic-HyE">
+                                                            <rect key="frame" x="95" y="36.333333333333336" width="85.333333333333314" height="17"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -406,11 +406,18 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
+                                            <outlet property="hotSign" destination="8cl-gM-RGF" id="Nnc-zO-KBt"/>
+                                            <outlet property="locationLabel" destination="3z3-S5-8x1" id="0jS-k2-cCV"/>
+                                            <outlet property="locationSign" destination="cMS-ee-6ui" id="tnb-D2-aOr"/>
                                             <outlet property="movieNowImage" destination="uaX-Mb-UTI" id="mFy-tb-PhV"/>
                                             <outlet property="movieNowNameLabel" destination="swz-Hz-ZNs" id="LgE-Fm-rkU"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="z2R-TH-ZqP" id="0BP-Lp-2Wg"/>
+                                    <outlet property="delegate" destination="z2R-TH-ZqP" id="iMZ-GT-wtA"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="NHU-gb-zI7"/>
@@ -427,7 +434,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="iTu-tX-6RK"/>
                     <connections>
-                        <outlet property="moviesTableView" destination="4W0-PS-uyc" id="lRh-Q2-5Ww"/>
+                        <outlet property="moviesTableView" destination="4W0-PS-uyc" id="k9U-Cz-y9f"/>
                         <outlet property="nowMoviesButton" destination="8Zn-fF-5TT" id="TlR-kL-ofw"/>
                         <outlet property="upcomingMoviesButton" destination="9qh-DL-A9k" id="Ebq-RV-34c"/>
                     </connections>
@@ -435,6 +442,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cxJ-nz-tcy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1758" y="-294"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bb5-rJ-OUE">
+            <objects>
+                <viewController id="4xs-OB-H2V" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="344-V5-zWI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Obs-Sy-hHE">
+                                <rect key="frame" x="194" y="332" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <segue destination="S9u-pb-xps" kind="show" id="WyA-fk-QK4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Jw6-hn-INI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jh4-zv-2SL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-686" y="664"/>
         </scene>
         <!--Movie Details View Controller-->
         <scene sceneID="rJJ-7J-YLc">
@@ -1828,7 +1861,8 @@
         <!--Tab Bar Controller-->
         <scene sceneID="YZK-nn-zMi">
             <objects>
-                <tabBarController storyboardIdentifier="TabBarController" id="S9u-pb-xps" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" modalPresentationStyle="fullScreen" id="S9u-pb-xps" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ent-Vm-KZn"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Iay-09-99E">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1850,7 +1884,7 @@
                     <tabBarItem key="tabBarItem" title="Ticket" image="ticket" catalog="system" id="GZT-ss-k48"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CbO-6d-Cmz">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

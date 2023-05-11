@@ -25,6 +25,8 @@
 		53ADE3822A0A850C0024ACC4 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3812A0A850C0024ACC4 /* MovieDetailsViewController.swift */; };
 		53ADE3862A0B65390024ACC4 /* MovieDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3852A0B65390024ACC4 /* MovieDetailsCell.swift */; };
 		53ADE38A2A0B665C0024ACC4 /* SaleTimeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3892A0B665C0024ACC4 /* SaleTimeListCell.swift */; };
+		53ADE3902A0BCC840024ACC4 /* MoviesSource.json in Resources */ = {isa = PBXBuildFile; fileRef = 53ADE38F2A0BCC840024ACC4 /* MoviesSource.json */; };
+		53ADE3922A0BCCA70024ACC4 /* TicketsSource.json in Resources */ = {isa = PBXBuildFile; fileRef = 53ADE3912A0BCCA70024ACC4 /* TicketsSource.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +69,8 @@
 		53ADE3812A0A850C0024ACC4 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		53ADE3852A0B65390024ACC4 /* MovieDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsCell.swift; sourceTree = "<group>"; };
 		53ADE3892A0B665C0024ACC4 /* SaleTimeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleTimeListCell.swift; sourceTree = "<group>"; };
-		53ADE38B2A0BBF750024ACC4 /* MoviesSource.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = MoviesSource.geojson; sourceTree = "<group>"; };
-		53ADE38E2A0BBFAB0024ACC4 /* TicketsSource.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = TicketsSource.geojson; sourceTree = "<group>"; };
+		53ADE38F2A0BCC840024ACC4 /* MoviesSource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MoviesSource.json; sourceTree = "<group>"; };
+		53ADE3912A0BCCA70024ACC4 /* TicketsSource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TicketsSource.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,9 +156,9 @@
 		53ADE36A2A0777B10024ACC4 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				53ADE3912A0BCCA70024ACC4 /* TicketsSource.json */,
+				53ADE38F2A0BCC840024ACC4 /* MoviesSource.json */,
 				53ADE37F2A07D9070024ACC4 /* UsefulMethods.swift */,
-				53ADE38B2A0BBF750024ACC4 /* MoviesSource.geojson */,
-				53ADE38E2A0BBFAB0024ACC4 /* TicketsSource.geojson */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -294,7 +296,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53ADE3902A0BCC840024ACC4 /* MoviesSource.json in Resources */,
 				53ADE3472A0672250024ACC4 /* LaunchScreen.storyboard in Resources */,
+				53ADE3922A0BCCA70024ACC4 /* TicketsSource.json in Resources */,
 				53ADE3442A0672250024ACC4 /* Assets.xcassets in Resources */,
 				53ADE3422A0672240024ACC4 /* Main.storyboard in Resources */,
 			);

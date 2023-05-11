@@ -25,11 +25,13 @@ class AllMoviesViewController: UIViewController,UITableViewDelegate,UITableViewD
         super.viewWillAppear(animated)
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
+    
     override func viewWillDisappear(_ animated: Bool) {
         
         super.viewWillDisappear(animated)
         navigationController?.setNavigationBarHidden(false, animated: true)
     }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,11 +53,7 @@ class AllMoviesViewController: UIViewController,UITableViewDelegate,UITableViewD
         moviesTableView.reloadData()
     }
     
-    
-    
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         return correctMovieSources.count
     }
     
@@ -76,6 +74,7 @@ class AllMoviesViewController: UIViewController,UITableViewDelegate,UITableViewD
         moviesLaterCell.movieLaterImage.image = UIImage(named: "\(moviesCard.movieImage)")
         
         return moviesLaterCell
+        
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

@@ -16,3 +16,6 @@ struct Movie:Hashable, Codable{
     var movieShowTime:String
     var movieRunningTime:String
 }
+
+
+
