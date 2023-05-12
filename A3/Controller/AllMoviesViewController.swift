@@ -77,9 +77,9 @@ class AllMoviesViewController: UIViewController,UITableViewDelegate,UITableViewD
         
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let detailViewController = UIStoryboard(name: "Cinema", bundle: nil).instantiateViewController(withIdentifier: "MovieDetailsViewController") as! MovieDetailsViewController
+        let detailViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MovieDetailsViewController") as! MovieDetailsViewController
         
         detailViewController.movieDetail = self.correctMovieSources[indexPath.row]
         detailViewController.hidesBottomBarWhenPushed = true
