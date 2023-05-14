@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		53ADE33B2A0672240024ACC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE33A2A0672240024ACC4 /* AppDelegate.swift */; };
 		53ADE33D2A0672240024ACC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE33C2A0672240024ACC4 /* SceneDelegate.swift */; };
-		53ADE33F2A0672240024ACC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE33E2A0672240024ACC4 /* ViewController.swift */; };
 		53ADE3422A0672240024ACC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ADE3402A0672240024ACC4 /* Main.storyboard */; };
 		53ADE3442A0672250024ACC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53ADE3432A0672250024ACC4 /* Assets.xcassets */; };
 		53ADE3472A0672250024ACC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53ADE3452A0672250024ACC4 /* LaunchScreen.storyboard */; };
@@ -28,6 +27,18 @@
 		53ADE3902A0BCC840024ACC4 /* MoviesSource.json in Resources */ = {isa = PBXBuildFile; fileRef = 53ADE38F2A0BCC840024ACC4 /* MoviesSource.json */; };
 		53ADE3922A0BCCA70024ACC4 /* TicketsSource.json in Resources */ = {isa = PBXBuildFile; fileRef = 53ADE3912A0BCCA70024ACC4 /* TicketsSource.json */; };
 		53ADE3962A0DFA640024ACC4 /* SeatSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3952A0DFA640024ACC4 /* SeatSelectionViewController.swift */; };
+		53ADE3AD2A0E75B00024ACC4 /* PersonalHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3AC2A0E75B00024ACC4 /* PersonalHeaderTableViewCell.swift */; };
+		53ADE3AF2A0E75B50024ACC4 /* PersonalTiketsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3AE2A0E75B50024ACC4 /* PersonalTiketsCell.swift */; };
+		53ADE3B32A0E75E40024ACC4 /* MovieTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3B22A0E75E40024ACC4 /* MovieTabBarController.swift */; };
+		53ADE3B72A0E760C0024ACC4 /* RegisterResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3B62A0E760C0024ACC4 /* RegisterResultViewController.swift */; };
+		53ADE3B92A0E76190024ACC4 /* LoginResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3B82A0E76190024ACC4 /* LoginResultViewController.swift */; };
+		53ADE3BB2A0E76260024ACC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3BA2A0E76260024ACC4 /* LoginViewController.swift */; };
+		53ADE3BD2A0E762C0024ACC4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3BC2A0E762C0024ACC4 /* RegisterViewController.swift */; };
+		53ADE3BF2A0E76310024ACC4 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3BE2A0E76310024ACC4 /* PersonalViewController.swift */; };
+		53ADE3C12A0E89390024ACC4 /* UICollectionGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3C02A0E89390024ACC4 /* UICollectionGridViewController.swift */; };
+		53ADE3C32A0E89400024ACC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3C22A0E89400024ACC4 /* ViewController.swift */; };
+		53ADE3C52A0E89630024ACC4 /* UICollectionGridViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3C42A0E89630024ACC4 /* UICollectionGridViewLayout.swift */; };
+		53ADE3C72A0E89690024ACC4 /* UICollectionGridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ADE3C62A0E89690024ACC4 /* UICollectionGridViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +62,6 @@
 		53ADE3372A0672240024ACC4 /* A3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53ADE33A2A0672240024ACC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53ADE33C2A0672240024ACC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		53ADE33E2A0672240024ACC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53ADE3412A0672240024ACC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53ADE3432A0672250024ACC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53ADE3462A0672250024ACC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,6 +83,18 @@
 		53ADE38F2A0BCC840024ACC4 /* MoviesSource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MoviesSource.json; sourceTree = "<group>"; };
 		53ADE3912A0BCCA70024ACC4 /* TicketsSource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TicketsSource.json; sourceTree = "<group>"; };
 		53ADE3952A0DFA640024ACC4 /* SeatSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatSelectionViewController.swift; sourceTree = "<group>"; };
+		53ADE3AC2A0E75B00024ACC4 /* PersonalHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		53ADE3AE2A0E75B50024ACC4 /* PersonalTiketsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalTiketsCell.swift; sourceTree = "<group>"; };
+		53ADE3B22A0E75E40024ACC4 /* MovieTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTabBarController.swift; sourceTree = "<group>"; };
+		53ADE3B62A0E760C0024ACC4 /* RegisterResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterResultViewController.swift; sourceTree = "<group>"; };
+		53ADE3B82A0E76190024ACC4 /* LoginResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResultViewController.swift; sourceTree = "<group>"; };
+		53ADE3BA2A0E76260024ACC4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		53ADE3BC2A0E762C0024ACC4 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		53ADE3BE2A0E76310024ACC4 /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		53ADE3C02A0E89390024ACC4 /* UICollectionGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionGridViewController.swift; sourceTree = "<group>"; };
+		53ADE3C22A0E89400024ACC4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53ADE3C42A0E89630024ACC4 /* UICollectionGridViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionGridViewLayout.swift; sourceTree = "<group>"; };
+		53ADE3C62A0E89690024ACC4 /* UICollectionGridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionGridViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +151,6 @@
 				53ADE36A2A0777B10024ACC4 /* DataSource */,
 				53ADE33A2A0672240024ACC4 /* AppDelegate.swift */,
 				53ADE33C2A0672240024ACC4 /* SceneDelegate.swift */,
-				53ADE33E2A0672240024ACC4 /* ViewController.swift */,
 				53ADE3432A0672250024ACC4 /* Assets.xcassets */,
 				53ADE3452A0672250024ACC4 /* LaunchScreen.storyboard */,
 				53ADE3482A0672250024ACC4 /* Info.plist */,
@@ -167,12 +188,12 @@
 		53ADE36C2A077D400024ACC4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				53ADE3772A07B5AD0024ACC4 /* MovieNowCell.swift */,
-				53ADE3792A07B5BC0024ACC4 /* MovieLaterCell.swift */,
+				53ADE3AB2A0E759D0024ACC4 /* Personal */,
+				53ADE3A52A0E71670024ACC4 /* SeatSelectionPage */,
+				53ADE3A42A0E715A0024ACC4 /* MovieDetailPage */,
+				53ADE3A32A0E712E0024ACC4 /* MovieHomePage */,
 				53ADE37B2A07BD650024ACC4 /* Ticket.swift */,
 				53ADE37D2A07BD810024ACC4 /* Movie.swift */,
-				53ADE3852A0B65390024ACC4 /* MovieDetailsCell.swift */,
-				53ADE3892A0B665C0024ACC4 /* SaleTimeListCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,11 +209,95 @@
 		53ADE36E2A077D4E0024ACC4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				53ADE3B22A0E75E40024ACC4 /* MovieTabBarController.swift */,
+				53ADE3B12A0E75D90024ACC4 /* Personal */,
+				53ADE3B02A0E75D40024ACC4 /* Login */,
+				53ADE3A82A0E72060024ACC4 /* MovieDetailPage */,
+				53ADE3A72A0E71FA0024ACC4 /* MovieHomePage */,
+				53ADE3A62A0E71EA0024ACC4 /* SeatSelectionPage */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		53ADE3A32A0E712E0024ACC4 /* MovieHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				53ADE3792A07B5BC0024ACC4 /* MovieLaterCell.swift */,
+				53ADE3772A07B5AD0024ACC4 /* MovieNowCell.swift */,
+			);
+			path = MovieHomePage;
+			sourceTree = "<group>";
+		};
+		53ADE3A42A0E715A0024ACC4 /* MovieDetailPage */ = {
+			isa = PBXGroup;
+			children = (
+				53ADE3892A0B665C0024ACC4 /* SaleTimeListCell.swift */,
+				53ADE3852A0B65390024ACC4 /* MovieDetailsCell.swift */,
+			);
+			path = MovieDetailPage;
+			sourceTree = "<group>";
+		};
+		53ADE3A52A0E71670024ACC4 /* SeatSelectionPage */ = {
+			isa = PBXGroup;
+			children = (
+				53ADE3C62A0E89690024ACC4 /* UICollectionGridViewCell.swift */,
+				53ADE3C42A0E89630024ACC4 /* UICollectionGridViewLayout.swift */,
+			);
+			path = SeatSelectionPage;
+			sourceTree = "<group>";
+		};
+		53ADE3A62A0E71EA0024ACC4 /* SeatSelectionPage */ = {
+			isa = PBXGroup;
+			children = (
+				53ADE3C22A0E89400024ACC4 /* ViewController.swift */,
+				53ADE3C02A0E89390024ACC4 /* UICollectionGridViewController.swift */,
+			);
+			path = SeatSelectionPage;
+			sourceTree = "<group>";
+		};
+		53ADE3A72A0E71FA0024ACC4 /* MovieHomePage */ = {
+			isa = PBXGroup;
+			children = (
 				53ADE3712A077E730024ACC4 /* AllMoviesViewController.swift */,
+			);
+			path = MovieHomePage;
+			sourceTree = "<group>";
+		};
+		53ADE3A82A0E72060024ACC4 /* MovieDetailPage */ = {
+			isa = PBXGroup;
+			children = (
 				53ADE3812A0A850C0024ACC4 /* MovieDetailsViewController.swift */,
 				53ADE3952A0DFA640024ACC4 /* SeatSelectionViewController.swift */,
 			);
-			path = Controller;
+			path = MovieDetailPage;
+			sourceTree = "<group>";
+		};
+		53ADE3AB2A0E759D0024ACC4 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				53ADE3AE2A0E75B50024ACC4 /* PersonalTiketsCell.swift */,
+				53ADE3AC2A0E75B00024ACC4 /* PersonalHeaderTableViewCell.swift */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		53ADE3B02A0E75D40024ACC4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				53ADE3BC2A0E762C0024ACC4 /* RegisterViewController.swift */,
+				53ADE3BA2A0E76260024ACC4 /* LoginViewController.swift */,
+				53ADE3B62A0E760C0024ACC4 /* RegisterResultViewController.swift */,
+				53ADE3B82A0E76190024ACC4 /* LoginResultViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		53ADE3B12A0E75D90024ACC4 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				53ADE3BE2A0E76310024ACC4 /* PersonalViewController.swift */,
+			);
+			path = Personal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,18 +433,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53ADE3B32A0E75E40024ACC4 /* MovieTabBarController.swift in Sources */,
 				53ADE3822A0A850C0024ACC4 /* MovieDetailsViewController.swift in Sources */,
+				53ADE3C52A0E89630024ACC4 /* UICollectionGridViewLayout.swift in Sources */,
+				53ADE3AD2A0E75B00024ACC4 /* PersonalHeaderTableViewCell.swift in Sources */,
 				53ADE3962A0DFA640024ACC4 /* SeatSelectionViewController.swift in Sources */,
-				53ADE33F2A0672240024ACC4 /* ViewController.swift in Sources */,
 				53ADE3782A07B5AD0024ACC4 /* MovieNowCell.swift in Sources */,
+				53ADE3C32A0E89400024ACC4 /* ViewController.swift in Sources */,
 				53ADE33B2A0672240024ACC4 /* AppDelegate.swift in Sources */,
+				53ADE3C12A0E89390024ACC4 /* UICollectionGridViewController.swift in Sources */,
+				53ADE3B72A0E760C0024ACC4 /* RegisterResultViewController.swift in Sources */,
 				53ADE37C2A07BD650024ACC4 /* Ticket.swift in Sources */,
+				53ADE3BF2A0E76310024ACC4 /* PersonalViewController.swift in Sources */,
+				53ADE3C72A0E89690024ACC4 /* UICollectionGridViewCell.swift in Sources */,
+				53ADE3BB2A0E76260024ACC4 /* LoginViewController.swift in Sources */,
 				53ADE3862A0B65390024ACC4 /* MovieDetailsCell.swift in Sources */,
+				53ADE3AF2A0E75B50024ACC4 /* PersonalTiketsCell.swift in Sources */,
 				53ADE33D2A0672240024ACC4 /* SceneDelegate.swift in Sources */,
+				53ADE3BD2A0E762C0024ACC4 /* RegisterViewController.swift in Sources */,
 				53ADE37A2A07B5BC0024ACC4 /* MovieLaterCell.swift in Sources */,
 				53ADE37E2A07BD810024ACC4 /* Movie.swift in Sources */,
 				53ADE38A2A0B665C0024ACC4 /* SaleTimeListCell.swift in Sources */,
 				53ADE3722A077E730024ACC4 /* AllMoviesViewController.swift in Sources */,
+				53ADE3B92A0E76190024ACC4 /* LoginResultViewController.swift in Sources */,
 				53ADE3802A07D9070024ACC4 /* UsefulMethods.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

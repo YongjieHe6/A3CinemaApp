@@ -9,7 +9,10 @@
 import UIKit
 import Foundation
 
-let ticketsPath = (NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString).appendingPathComponent("tickets.plist")
+let UserDefaultsNameUser = "UserDefaultsNameUser"
+let UserDefaultsNamePassword = "UserDefaultsNamePassword"
+
+let userTicketsDocument = (NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString).appendingPathComponent("orderedTickets.plist")
 
 
 func loadJson<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {

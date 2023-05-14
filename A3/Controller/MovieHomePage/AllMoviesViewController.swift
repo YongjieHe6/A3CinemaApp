@@ -10,7 +10,6 @@ import UIKit
 
 class AllMoviesViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
-    
     @IBOutlet weak var upcomingMoviesButton: UIButton!
     @IBOutlet weak var nowMoviesButton: UIButton!
     @IBOutlet weak var moviesTableView: UITableView!

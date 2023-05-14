@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+//Movie Model
 struct Movie:Hashable, Codable{
     var movieID:String
     var movieClassification:String //0 means currently released, 1 means upcoming release

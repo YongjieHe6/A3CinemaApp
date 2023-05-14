@@ -58,9 +58,8 @@ class MovieDetailsViewController: UIViewController, UITableViewDelegate,UITableV
     }
     
     @objc func bookingButtonTap(button:UIButton){
-        
-        let seatSelectionViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SeatSelectionViewController") as! SeatSelectionViewController
-        //seatSelectionViewController.ticket = correctShowingSource[button.tag]
+        let seatSelectionViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        seatSelectionViewController.ticket = correctShowingSource[button.tag]
         self.navigationController?.pushViewController(seatSelectionViewController, animated: true)
     }
     
